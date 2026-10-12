@@ -1,0 +1,16 @@
+cara menjalannya 
+1. klik kanan command prompt
+2. untuk download mp3 gunakan yt-dlp -x --audio-format mp3 "LINK_YOUTUBE_DISINI"
+3. untuk mp 4 max resolusi gunakan yt-dlp -S "ext:mp4:m4a" "LINK_VIDEO_DISINI" // yt-dlp -S "res:1080,ext:mp4:m4a" "LINK_VIDEO_DISINI"
+
+4. untuk Melihat Daftar Resolusi & Memilih Manual (Cara Pro)
+yt-dlp -F "LINK_VIDEO_DISINI"
+Jendela CMD akan menampilkan daftar panjang (tabel). Perhatikan kolom paling kiri yang berisi angka (itu adalah ID Format).
+Setelah menemukan resolusi yang pas, unduh dengan menggabungkan ID Video dan ID Audio menggunakan huruf f kecil
+yt-dlp -f "ID_VIDEO+ID_AUDIO" --merge-output-format mp4 "LINK_VIDEO_DISINI"
+
+jalan file python app.py
+
+
+jadikan file  .exe
+pyinstaller --onefile --noconsole app.py
