@@ -15,7 +15,7 @@ ctk.set_appearance_mode("dark")
 # --- KONFIGURASI VERSI & SERVER ---
 APP_VERSION = "1.0"
 # Ganti URL ini nanti dengan link file version.json mentah (raw) Anda di GitHub/Server
-STATUS_URL = "https://raw.githubusercontent.com/username/repo/main/version.json" 
+STATUS_URL = "https://raw.githubusercontent.com/RasyifIbnu/Dplexe/refs/heads/main/version.json" 
 
 CONFIG_FILE = "config.json"
 
